@@ -1,0 +1,25 @@
+body{
+    color: aqua;
+    background-color: darkmagenta;
+    font-family: 'segoe ui', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* class selector */
+.first {
+    color: black;
+}
+/* ID selector */
+#eklist {
+    background-color: brown;
+}
+.large{
+    font-size: 30px;
+}
+/* attribute selector*/
+a[herf="https://upflairs.com"]{
+    color : blue;
+    text-decoration:none;
+}
+/* pseudo selector */
+.first:hover{
+    color: black;
+}

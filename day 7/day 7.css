@@ -1,0 +1,137 @@
+/* Define The global or root variables */
+:root{
+    --primaryColor :#213555;
+    --backgroundColor :#F5EFE7;
+    --primaryAccentColor :#4F709C;
+    --secondaryColor : #D8C4B6;
+    --whiteColor:white;
+    --blackColor:#222222;
+    --primaryFont: 'Open Sans', sans-serif;
+--cursivefont: 'Oswald', sans-serif;
+    --navbarHeight: 3rem;
+}
+
+/* Main CSS */
+body{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navigation{
+    background-color: var(--whiteColor);
+    height: var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display:flex;
+    padding-left: 20px;
+    width: 12rem;
+    align-items: center;
+}
+.logoImage{
+    padding: 8px;
+    height: 2rem;    
+    /* float:left; */
+}
+.contactImage{
+    padding: 8px;
+    height: 2rem;  
+}
+.menuItems{
+    flex-grow:2;
+}
+.menuItem{
+    margin-left: 20px;
+}
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg,var(--secondaryColor),var(--primaryColor));
+    filter: drop-shadow(0px 3px 4px grey);/*x*/
+    justify-content: space-around;
+    align-items: center;
+    padding: ;
+}
+.bannerimages{
+    height: 300px;
+    border-radius: 100%;
+}
+.greeting{
+    font-family: var(--cursive font);
+    font-size: 1.25rem;
+}
+.title{
+    font-size: 3.5rem;
+
+}
+.banner-left{
+    width: 50%;
+}
+.title span{
+    background-color: white;
+    padding: o.5rem;
+    margin: 5px 0px;
+    display: inline-block;
+
+}
+/* services section*/
+.services{
+    margin: 5rem;    
+}
+.serviceText{
+    text-align: center;
+    text-transform: uppercase;
+}
+.textSubHeading{
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+.textHeading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.serviceCard{
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    /* margin: 15px; */
+    padding: 40px;
+}
+.serviceCard:hover{
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px grey);
+}
+.serviceIconDiv{
+    background-color: var(--primaryColor);
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 20px;       
+}
+.serviceIcon{
+    font-size: 3rem;
+    color: white;
+}
+.serviceTitle{
+    font-size: 1.75rem;
+    margin: 20px 0px;
+}
+.serviceFeature{
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.serviceFeatureIcon{
+    font-size: 1rem;
+}
